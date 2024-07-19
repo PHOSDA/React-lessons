@@ -1,6 +1,7 @@
 // 1, import the react and reactdom libraries
- import React from "react";
- import ReactDom from "react-dom/client";
+import React from "react";
+import ReactDom from "react-dom/client";
+import App from './App';
 // 2, get a reference to the div with ID root 
 const el = document.getElementById('root');
 // 3, tell react to take control of that element
